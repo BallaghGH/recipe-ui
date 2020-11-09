@@ -1,0 +1,14 @@
+.header--container {
+  max-height: 90px;
+  background-color: $color-primary;
+  color: white;
+  text-align: left;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  h6 {
+    font-size: 20px;
+  }
+}

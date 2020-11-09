@@ -1,0 +1,19 @@
+body {
+  overflow: scroll;
+}
+
+// Variables first
+@import './styles/variables/breakpoints';
+@import './styles/variables/colours';
+
+// Layout
+@import './styles/layout/base';
+@import './styles/components/loader';
+
+// Components 
+@import './styles/layout/header';
+@import './styles/components/table';
+@import './styles/layout/footer';
+@import './styles/components/menu-icon';
+@import './styles/components/button';
+@import './styles/components/modal';

@@ -1,0 +1,101 @@
+.unit-table {
+  width: 100%;
+  border: 2px solid $color-primary;
+  margin-top: 1rem;
+  background-color: $color-white;
+  border-collapse: collapse;
+  margin-bottom: 2rem;
+
+  th {
+    padding: 10px;
+    text-align: left;
+    background-color: $color-primary;
+    color: white;
+    border-color: $color-primary;
+  }
+
+  td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+
+  tr:hover {
+    background-color: #ddd;
+  }
+
+  .create-icon {
+    text-align: right;
+  }
+
+  .remove-icon {
+    text-align: center;
+    color: $color-delete;
+
+    svg {
+      cursor: pointer;
+    }
+
+    svg:hover {
+      color: red;
+    }
+    
+
+  }
+  .edit-icon {
+    text-align: center;
+    color: $color-edit;
+
+    svg {
+      cursor: pointer;
+      color: #edcd64
+    }
+
+    svg:hover {
+      color: #b59a43;
+    }
+  }
+
+  textarea {
+    outline: none;
+    resize: none;
+  }
+}
+
+.unit-table--editText {
+  width: 90%;
+}
+
+.unit-table--editBox {
+  display: flex;
+  align-items: center;
+
+  svg {
+    padding-left: 1rem;
+    cursor: pointer;
+    color: #65b84b
+  }
+
+  svg:hover {
+    color: #478234
+  }
+}
+
+.add--container {
+  text-align: right;
+  padding-top: 1rem;
+
+  svg {
+    color: $color-white;
+    cursor: pointer;
+    border: 1px solid #65b84b;
+    background-color: #65b84b;
+  }
+
+  svg:hover {
+    color: grey;
+  }
+}

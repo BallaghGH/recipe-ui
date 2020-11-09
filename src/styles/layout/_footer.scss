@@ -1,0 +1,15 @@
+.footer--container {
+  max-height: 15px;
+  background-color: $color-primary;
+  color: white;
+  text-align: left;
+  padding: 5px 20px;
+  display: flex;
+  align-items: center;
+  vertical-align: center;
+
+
+  p {
+    font-size: 13px;
+  }
+}

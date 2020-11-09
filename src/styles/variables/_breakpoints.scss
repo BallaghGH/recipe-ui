@@ -1,0 +1,22 @@
+// This file uses spacing to align, disable disalowing more than 1 space after colon.
+
+$mq-breakpoints: (
+  xx-small: 320px,
+  x-small: 540px,
+  small: 760px,
+  medium: 940px,
+  large: 1024px,
+  x-large: 1280px,
+  xx-large: 1400px,
+  phone-landscape: 480px,
+  tablet: 768px,
+  tablet-landscape: 1024px,
+  laptop: 1200px,
+  monitor: 1360px,
+);
+
+:root {
+  @each $breakpoint, $width in $mq-breakpoints {
+    --var-breakpoint-#{$breakpoint}: $width;
+  }
+}
